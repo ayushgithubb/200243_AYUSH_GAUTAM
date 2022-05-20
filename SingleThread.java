@@ -9,7 +9,7 @@ public class SingleThread extends Thread {                                  // u
 
 	public static void main(String[] args) {                            
 
-		SingleThread test1 = new SingleThread();                   // creating object test1
+		SingleThread test1 = new SingleThread();                   // creating thread object test1
 		test1.start();                                             // starting the thread
 		
 	}
